@@ -1,0 +1,12 @@
+# Virtual Environment
+blog-venv/
+
+# Python Cache files
+__pycache__/
+*.pyc
+
+# Sensitive environment variables
+# The actual .env file *contents* should ideally be ignored
+# You might want to include an empty .env file or a template like .env.example
+
+# If your .env contains secrets, you should list it here:
