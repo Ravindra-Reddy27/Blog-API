@@ -81,7 +81,7 @@ Make sure you have:
 
 8. Install dependencies
    
-   `python -m pip install -r requirements.txt`
+   `pip install -r requirements.txt`
 10. Check your .env file (replace *YOUR_PASSWORD* with your actual PostgreSQL password)
 
     `DATABASE_URL="postgresql://postgres:YOUR_PASSWORD@localhost:5432/blog_db"`
@@ -146,7 +146,7 @@ Make sure you have:
   
   Code&nbsp;&nbsp;&nbsp;&nbsp;Details
   
-  201&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Response body
+  200&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Response body
 
   `
   [
@@ -179,7 +179,7 @@ Make sure you have:
   
         Code&nbsp;&nbsp;&nbsp;&nbsp;Details
         
-        201&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Response body
+        200&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Response body
       
         `
         {
@@ -227,7 +227,7 @@ Make sure you have:
   
   Code&nbsp;&nbsp;&nbsp;&nbsp;Details
   
-  201&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Response body
+  200&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Response body
 
   `
   {
@@ -253,7 +253,7 @@ Make sure you have:
   
     Code&nbsp;&nbsp;&nbsp;&nbsp;Details
   
-    201&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Successful Response
+    204&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Successful Response
   
 * If the author_id is not there you will get 404 Error: Not Found.
   
